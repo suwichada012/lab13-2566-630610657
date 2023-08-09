@@ -23,6 +23,7 @@ export default function SearchResultPage({ params }) {
       {filteredMovies.map((movie) => (
         <MovieRow
           key={movie.id}
+          id={movie.id}
           title={movie.title}
           rating={movie.rating}
           number={movie.number}
