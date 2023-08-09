@@ -26,7 +26,7 @@ export default function SearchResultPage({ params }) {
           id={movie.id}
           title={movie.title}
           rating={movie.rating}
-          number={movie.number}
+          number={movie.id}
         />
       ))}
     </div>
